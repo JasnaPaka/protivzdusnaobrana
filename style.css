@@ -1,0 +1,49 @@
+/*
+Theme Name: Projekt Protileteckaobrana.plzne.cz
+Author: Pavel Cvrček
+Description: Šablona projektu Protiletecká Plzeň
+Template: vpp
+Version: 1.0
+*/
+
+@import url("/wp-content/themes/vpp-child-protileteckaobrana/style-shared.css");
+
+#obsah-container {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+}
+
+#page.katalog .post .padding {
+    height: 50px;
+}
+
+#page.titulni .contentheight {
+    min-height: 1100px;
+}
+
+#page.index #actualprojects {
+    height: 1100px;
+}
+
+.strankovani-polozka-akt, .buttonGreen,
+.pridat-dilo .button.orange,
+.pridat-dilo .updated {
+    background-color: #008DD2;
+}
+
+#page.index.podnet .topMenu h1,
+#obsah-perex,
+.content a,
+#actualprojects a h3,
+.pridat-dilo p a,
+#page form.rows h3,
+.contentheight p a,
+#mappage a
+{
+    color: #008DD2;
+}
+
+#promo-video {
+
+}
